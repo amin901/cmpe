@@ -148,7 +148,7 @@ int main(void)
     scheduler_add_task(new uart2_hw1(PRIORITY_LOW));
     #endif
 
-    #if 1
+    #if 0
     scheduler_add_task(new Led_Switch(PRIORITY_LOW));
     #endif
     /**
